@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1118BA21CBC1270089B1FA /* libBreakpad.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F8CD3193E45E4001FF9B0 /* libBreakpad.a */; };
+		8B1118C021CBCD360089B1FA /* MyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1118BF21CBCD360089B1FA /* MyLog.m */; };
+		EE2F8C94193E4417001FF9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8C93193E4417001FF9B0 /* Foundation.framework */; };
+		EE2F8C96193E4417001FF9B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8C95193E4417001FF9B0 /* CoreGraphics.framework */; };
+		EE2F8C98193E4417001FF9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8C97193E4417001FF9B0 /* UIKit.framework */; };
+		EE2F8C9E193E4417001FF9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE2F8C9C193E4417001FF9B0 /* InfoPlist.strings */; };
+		EE2F8CA0193E4417001FF9B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8C9F193E4417001FF9B0 /* main.m */; };
+		EE2F8CA4193E4417001FF9B0 /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8CA3193E4417001FF9B0 /* BPAppDelegate.m */; };
+		EE2F8CA7193E4417001FF9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2F8CA5193E4417001FF9B0 /* Main.storyboard */; };
+		EE2F8CAA193E4417001FF9B0 /* BPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8CA9193E4417001FF9B0 /* BPViewController.m */; };
+		EE2F8CAC193E4417001FF9B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2F8CAB193E4417001FF9B0 /* Images.xcassets */; };
+		EE2F8CB3193E4417001FF9B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8CB2193E4417001FF9B0 /* XCTest.framework */; };
+		EE2F8CB4193E4417001FF9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8C93193E4417001FF9B0 /* Foundation.framework */; };
+		EE2F8CB5193E4417001FF9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8C97193E4417001FF9B0 /* UIKit.framework */; };
+		EE2F8CBD193E4417001FF9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE2F8CBB193E4417001FF9B0 /* InfoPlist.strings */; };
+		EE2F8CBF193E4417001FF9B0 /* IOSBreakpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8CBE193E4417001FF9B0 /* IOSBreakpadTests.m */; };
+		EE2F8CD6193E4806001FF9B0 /* libBreakpad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F8CD3193E45E4001FF9B0 /* libBreakpad.a */; };
+		EE2F8CDB193E5200001FF9B0 /* File.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8CDA193E5200001FF9B0 /* File.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2F8CB6193E4417001FF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2F8C88193E4417001FF9B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2F8C8F193E4417001FF9B0;
+			remoteInfo = IOSBreakpad;
+		};
+		EE2F8CD2193E45E4001FF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2F8CCE193E45E4001FF9B0 /* Breakpad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Breakpad;
+		};
+		EE2F8CD4193E4781001FF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2F8CCE193E45E4001FF9B0 /* Breakpad.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = Breakpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B1118B921CBC1020089B1FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B1118BA21CBC1270089B1FA /* libBreakpad.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B1118BF21CBCD360089B1FA /* MyLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLog.m; sourceTree = "<group>"; };
+		8B1118C121CBCD720089B1FA /* MyLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLog.h; sourceTree = "<group>"; };
+		EE2F8C90193E4417001FF9B0 /* IOSBreakpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSBreakpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2F8C93193E4417001FF9B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE2F8C95193E4417001FF9B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE2F8C97193E4417001FF9B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE2F8C9B193E4417001FF9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2F8C9D193E4417001FF9B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE2F8C9F193E4417001FF9B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE2F8CA1193E4417001FF9B0 /* IOSBreakpad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSBreakpad-Prefix.pch"; sourceTree = "<group>"; };
+		EE2F8CA2193E4417001FF9B0 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		EE2F8CA3193E4417001FF9B0 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
+		EE2F8CA6193E4417001FF9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2F8CA8193E4417001FF9B0 /* BPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPViewController.h; sourceTree = "<group>"; };
+		EE2F8CA9193E4417001FF9B0 /* BPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPViewController.m; sourceTree = "<group>"; };
+		EE2F8CAB193E4417001FF9B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE2F8CB1193E4417001FF9B0 /* IOSBreakpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSBreakpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2F8CB2193E4417001FF9B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE2F8CBA193E4417001FF9B0 /* IOSBreakpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSBreakpadTests-Info.plist"; sourceTree = "<group>"; };
+		EE2F8CBC193E4417001FF9B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE2F8CBE193E4417001FF9B0 /* IOSBreakpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSBreakpadTests.m; sourceTree = "<group>"; };
+		EE2F8CCE193E45E4001FF9B0 /* Breakpad.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Breakpad.xcodeproj; path = "../google-breakpad-read-only/src/client/ios/Breakpad.xcodeproj"; sourceTree = "<group>"; };
+		EE2F8CDA193E5200001FF9B0 /* File.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = File.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2F8C8D193E4417001FF9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8CD6193E4806001FF9B0 /* libBreakpad.a in Frameworks */,
+				EE2F8C96193E4417001FF9B0 /* CoreGraphics.framework in Frameworks */,
+				EE2F8C98193E4417001FF9B0 /* UIKit.framework in Frameworks */,
+				EE2F8C94193E4417001FF9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F8CAE193E4417001FF9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8CB3193E4417001FF9B0 /* XCTest.framework in Frameworks */,
+				EE2F8CB5193E4417001FF9B0 /* UIKit.framework in Frameworks */,
+				EE2F8CB4193E4417001FF9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2F8C87193E4417001FF9B0 = {
+			isa = PBXGroup;
+			children = (
+				EE2F8CCE193E45E4001FF9B0 /* Breakpad.xcodeproj */,
+				EE2F8C99193E4417001FF9B0 /* IOSBreakpad */,
+				EE2F8CB8193E4417001FF9B0 /* IOSBreakpadTests */,
+				EE2F8C92193E4417001FF9B0 /* Frameworks */,
+				EE2F8C91193E4417001FF9B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2F8C91193E4417001FF9B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8C90193E4417001FF9B0 /* IOSBreakpad.app */,
+				EE2F8CB1193E4417001FF9B0 /* IOSBreakpadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2F8C92193E4417001FF9B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8C93193E4417001FF9B0 /* Foundation.framework */,
+				EE2F8C95193E4417001FF9B0 /* CoreGraphics.framework */,
+				EE2F8C97193E4417001FF9B0 /* UIKit.framework */,
+				EE2F8CB2193E4417001FF9B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE2F8C99193E4417001FF9B0 /* IOSBreakpad */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8CDA193E5200001FF9B0 /* File.mm */,
+				EE2F8CA2193E4417001FF9B0 /* BPAppDelegate.h */,
+				EE2F8CA3193E4417001FF9B0 /* BPAppDelegate.m */,
+				EE2F8CA5193E4417001FF9B0 /* Main.storyboard */,
+				EE2F8CA8193E4417001FF9B0 /* BPViewController.h */,
+				EE2F8CA9193E4417001FF9B0 /* BPViewController.m */,
+				EE2F8CAB193E4417001FF9B0 /* Images.xcassets */,
+				EE2F8C9A193E4417001FF9B0 /* Supporting Files */,
+				8B1118BF21CBCD360089B1FA /* MyLog.m */,
+				8B1118C121CBCD720089B1FA /* MyLog.h */,
+			);
+			path = IOSBreakpad;
+			sourceTree = "<group>";
+		};
+		EE2F8C9A193E4417001FF9B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8C9B193E4417001FF9B0 /* Info.plist */,
+				EE2F8C9C193E4417001FF9B0 /* InfoPlist.strings */,
+				EE2F8C9F193E4417001FF9B0 /* main.m */,
+				EE2F8CA1193E4417001FF9B0 /* IOSBreakpad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE2F8CB8193E4417001FF9B0 /* IOSBreakpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8CBE193E4417001FF9B0 /* IOSBreakpadTests.m */,
+				EE2F8CB9193E4417001FF9B0 /* Supporting Files */,
+			);
+			path = IOSBreakpadTests;
+			sourceTree = "<group>";
+		};
+		EE2F8CB9193E4417001FF9B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8CBA193E4417001FF9B0 /* IOSBreakpadTests-Info.plist */,
+				EE2F8CBB193E4417001FF9B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE2F8CCF193E45E4001FF9B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8CD3193E45E4001FF9B0 /* libBreakpad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2F8C8F193E4417001FF9B0 /* IOSBreakpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2F8CC2193E4417001FF9B0 /* Build configuration list for PBXNativeTarget "IOSBreakpad" */;
+			buildPhases = (
+				EE2F8C8C193E4417001FF9B0 /* Sources */,
+				EE2F8C8D193E4417001FF9B0 /* Frameworks */,
+				EE2F8C8E193E4417001FF9B0 /* Resources */,
+				8B1118B921CBC1020089B1FA /* CopyFiles */,
+				EE2F8CDC193F734E001FF9B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2F8CD5193E4781001FF9B0 /* PBXTargetDependency */,
+			);
+			name = IOSBreakpad;
+			productName = IOSBreakpad;
+			productReference = EE2F8C90193E4417001FF9B0 /* IOSBreakpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2F8CB0193E4417001FF9B0 /* IOSBreakpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2F8CC5193E4417001FF9B0 /* Build configuration list for PBXNativeTarget "IOSBreakpadTests" */;
+			buildPhases = (
+				EE2F8CAD193E4417001FF9B0 /* Sources */,
+				EE2F8CAE193E4417001FF9B0 /* Frameworks */,
+				EE2F8CAF193E4417001FF9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2F8CB7193E4417001FF9B0 /* PBXTargetDependency */,
+			);
+			name = IOSBreakpadTests;
+			productName = IOSBreakpadTests;
+			productReference = EE2F8CB1193E4417001FF9B0 /* IOSBreakpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2F8C88193E4417001FF9B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BP;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Juan Cruz Ghigliani";
+				TargetAttributes = {
+					EE2F8CB0193E4417001FF9B0 = {
+						TestTargetID = EE2F8C8F193E4417001FF9B0;
+					};
+				};
+			};
+			buildConfigurationList = EE2F8C8B193E4417001FF9B0 /* Build configuration list for PBXProject "IOSBreakpad" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2F8C87193E4417001FF9B0;
+			productRefGroup = EE2F8C91193E4417001FF9B0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EE2F8CCF193E45E4001FF9B0 /* Products */;
+					ProjectRef = EE2F8CCE193E45E4001FF9B0 /* Breakpad.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EE2F8C8F193E4417001FF9B0 /* IOSBreakpad */,
+				EE2F8CB0193E4417001FF9B0 /* IOSBreakpadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EE2F8CD3193E45E4001FF9B0 /* libBreakpad.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBreakpad.a;
+			remoteRef = EE2F8CD2193E45E4001FF9B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2F8C8E193E4417001FF9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8CAC193E4417001FF9B0 /* Images.xcassets in Resources */,
+				EE2F8C9E193E4417001FF9B0 /* InfoPlist.strings in Resources */,
+				EE2F8CA7193E4417001FF9B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F8CAF193E4417001FF9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8CBD193E4417001FF9B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE2F8CDC193F734E001FF9B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nTOOL_DIR=/Users/developer/Downloads/IOSBreakpad/Projects/google-breakpad-read-only/src/tools/mac/dump_syms\n\nPROD=$TARGET_BUILD_DIR/$EXECUTABLE_PATH\n\n#\"$TOOL_DIR/dump_syms\" -a armv7 \"$PROD\" > \"$TARGET_NAME armv7.breakpad\"\n#\"$TOOL_DIR/dump_syms\" -a armv7s \"$PROD\" > \"$TARGET_NAME armv7s.breakpad\"\n#\"$TOOL_DIR/dump_syms\" -a arm64 \"$PROD\" > \"$TARGET_NAME arm64.breakpad\"\n\n\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2F8C8C193E4417001FF9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8CAA193E4417001FF9B0 /* BPViewController.m in Sources */,
+				EE2F8CA4193E4417001FF9B0 /* BPAppDelegate.m in Sources */,
+				EE2F8CA0193E4417001FF9B0 /* main.m in Sources */,
+				8B1118C021CBCD360089B1FA /* MyLog.m in Sources */,
+				EE2F8CDB193E5200001FF9B0 /* File.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F8CAD193E4417001FF9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8CBF193E4417001FF9B0 /* IOSBreakpadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2F8CB7193E4417001FF9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2F8C8F193E4417001FF9B0 /* IOSBreakpad */;
+			targetProxy = EE2F8CB6193E4417001FF9B0 /* PBXContainerItemProxy */;
+		};
+		EE2F8CD5193E4781001FF9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Breakpad;
+			targetProxy = EE2F8CD4193E4781001FF9B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2F8C9C193E4417001FF9B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2F8C9D193E4417001FF9B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE2F8CA5193E4417001FF9B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2F8CA6193E4417001FF9B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2F8CBB193E4417001FF9B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2F8CBC193E4417001FF9B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2F8CC0193E4417001FF9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE2F8CC1193E4417001FF9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2F8CC3193E4417001FF9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 559SFG64U2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSBreakpad/IOSBreakpad-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../google-breakpad-read-only/src",
+					"$(SRCROOT)/../google-breakpad-read-only/src/client/",
+					"$(SRCROOT)/../google-breakpad-read-only/src/client/ios",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IOSBreakpad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantcloud.IOSBreakpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = QuantAdvisorAppCertification;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE2F8CC4193E4417001FF9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 559SFG64U2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSBreakpad/IOSBreakpad-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../google-breakpad-read-only/src",
+					"$(SRCROOT)/../google-breakpad-read-only/src/client/",
+					"$(SRCROOT)/../google-breakpad-read-only/src/client/ios",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IOSBreakpad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantcloud.IOSBreakpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = QuantAdvisorAppCertification;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE2F8CC6193E4417001FF9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IOSBreakpad.app/IOSBreakpad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSBreakpad/IOSBreakpad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IOSBreakpadTests/IOSBreakpadTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ar.com.juancruzmdq.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE2F8CC7193E4417001FF9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IOSBreakpad.app/IOSBreakpad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSBreakpad/IOSBreakpad-Prefix.pch";
+				INFOPLIST_FILE = "IOSBreakpadTests/IOSBreakpadTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ar.com.juancruzmdq.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2F8C8B193E4417001FF9B0 /* Build configuration list for PBXProject "IOSBreakpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F8CC0193E4417001FF9B0 /* Debug */,
+				EE2F8CC1193E4417001FF9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2F8CC2193E4417001FF9B0 /* Build configuration list for PBXNativeTarget "IOSBreakpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F8CC3193E4417001FF9B0 /* Debug */,
+				EE2F8CC4193E4417001FF9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2F8CC5193E4417001FF9B0 /* Build configuration list for PBXNativeTarget "IOSBreakpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F8CC6193E4417001FF9B0 /* Debug */,
+				EE2F8CC7193E4417001FF9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2F8C88193E4417001FF9B0 /* Project object */;
+}

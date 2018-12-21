@@ -1,0 +1,568 @@
+Operating system: iOS
+                  11.4.0 15F79
+CPU: arm64
+     6 CPUs
+
+GPU: UNKNOWN
+
+Crash reason:  EXC_SOFTWARE / UNCAUGHT_NS_EXCEPTION
+Crash address: 0x1817bed8c
+Process uptime: 52 seconds
+
+Thread 0 (crashed)
+ 0  CoreFoundation + 0x145d8c
+     x0 = 0x0000000000000000    x1 = 0x0000000000000000
+     x2 = 0x0000000000000000    x3 = 0x0000000000000000
+     x4 = 0x0000000000000000    x5 = 0x0000000000000000
+     x6 = 0x0000000000000000    x7 = 0x0000000000000000
+     x8 = 0x0000000000000000    x9 = 0x0000000000000000
+    x10 = 0x0000000000000000   x11 = 0x0000000000000000
+    x12 = 0x0000000000000000   x13 = 0x0000000000000000
+    x14 = 0x0000000000000000   x15 = 0x0000000000000000
+    x16 = 0x0000000000000000   x17 = 0x0000000000000000
+    x18 = 0x0000000000000000   x19 = 0x0000000000000000
+    x20 = 0x0000000000000000   x21 = 0x0000000000000000
+    x22 = 0x0000000000000000   x23 = 0x0000000000000000
+    x24 = 0x0000000000000000   x25 = 0x0000000000000000
+    x26 = 0x0000000000000000   x27 = 0x0000000000000000
+    x28 = 0x0000000000000000    fp = 0x0000000000000008
+     lr = 0x00000001809785ec    sp = 0x0000000000000000
+     pc = 0x00000001817bed8c
+    Found by: given as instruction pointer in context
+ 1  libobjc.A.dylib + 0x85e8
+     fp = 0x0000000000000018    lr = 0x000000018171a448
+     sp = 0x0000000000000018    pc = 0x00000001809785ec
+    Found by: previous frame's frame pointer
+ 2  CoreFoundation + 0xa1444
+     fp = 0x0000000000000028    lr = 0x000000010020ce24
+     sp = 0x0000000000000028    pc = 0x000000018171a448
+    Found by: previous frame's frame pointer
+ 3  IOSBreakpad!-[BPViewController tapCrash:] [BPViewController.m : 33 + 0x8]
+     fp = 0x0000000000000038    lr = 0x000000018b52a64c
+     sp = 0x0000000000000038    pc = 0x000000010020ce24
+    Found by: previous frame's frame pointer
+ 4  UIKit + 0x1a6648
+     fp = 0x0000000000000048    lr = 0x000000018b64b870
+     sp = 0x0000000000000048    pc = 0x000000018b52a64c
+    Found by: previous frame's frame pointer
+ 5  UIKit + 0x2c786c
+     fp = 0x0000000000000058    lr = 0x000000018b530700
+     sp = 0x0000000000000058    pc = 0x000000018b64b870
+    Found by: previous frame's frame pointer
+ 6  UIKit + 0x1ac6fc
+     fp = 0x0000000000000068    lr = 0x000000018b6661a8
+     sp = 0x0000000000000068    pc = 0x000000018b530700
+    Found by: previous frame's frame pointer
+ 7  UIKit + 0x2e21a4
+     fp = 0x0000000000000078    lr = 0x000000018b5ad9e0
+     sp = 0x0000000000000078    pc = 0x000000018b6661a8
+    Found by: previous frame's frame pointer
+ 8  UIKit + 0x2299dc
+     fp = 0x0000000000000088    lr = 0x000000018b5a2890
+     sp = 0x0000000000000088    pc = 0x000000018b5ad9e0
+    Found by: previous frame's frame pointer
+ 9  UIKit + 0x21e88c
+     fp = 0x0000000000000098    lr = 0x000000018b5a11d0
+     sp = 0x0000000000000098    pc = 0x000000018b5a2890
+    Found by: previous frame's frame pointer
+10  UIKit + 0x21d1cc
+     fp = 0x00000000000000a8    lr = 0x000000018bd82d1c
+     sp = 0x00000000000000a8    pc = 0x000000018b5a11d0
+    Found by: previous frame's frame pointer
+11  UIKit + 0x9fed18
+     fp = 0x00000000000000b8    lr = 0x000000018bd852c8
+     sp = 0x00000000000000b8    pc = 0x000000018bd82d1c
+    Found by: previous frame's frame pointer
+12  UIKit + 0xa012c4
+     fp = 0x00000000000000c8    lr = 0x000000018bd7e368
+     sp = 0x00000000000000c8    pc = 0x000000018bd852c8
+    Found by: previous frame's frame pointer
+13  UIKit + 0x9fa364
+     fp = 0x00000000000000d8    lr = 0x0000000181767404
+     sp = 0x00000000000000d8    pc = 0x000000018bd7e368
+    Found by: previous frame's frame pointer
+14  CoreFoundation + 0xee400
+     fp = 0x00000000000000e8    lr = 0x0000000181766c2c
+     sp = 0x00000000000000e8    pc = 0x0000000181767404
+    Found by: previous frame's frame pointer
+15  CoreFoundation + 0xedc28
+     fp = 0x00000000000000f8    lr = 0x000000018176479c
+     sp = 0x00000000000000f8    pc = 0x0000000181766c2c
+    Found by: previous frame's frame pointer
+16  CoreFoundation + 0xeb798
+     fp = 0x0000000000000108    lr = 0x0000000181684da8
+     sp = 0x0000000000000108    pc = 0x000000018176479c
+    Found by: previous frame's frame pointer
+17  CoreFoundation + 0xbda4
+     fp = 0x0000000000000118    lr = 0x0000000183669020
+     sp = 0x0000000000000118    pc = 0x0000000181684da8
+    Found by: previous frame's frame pointer
+18  GraphicsServices + 0xb01c
+     fp = 0x0000000000000128    lr = 0x000000018b6a1758
+     sp = 0x0000000000000128    pc = 0x0000000183669020
+    Found by: previous frame's frame pointer
+19  UIKit + 0x31d754
+     fp = 0x0000000000000138    lr = 0x000000010020d728
+     sp = 0x0000000000000138    pc = 0x000000018b6a1758
+    Found by: previous frame's frame pointer
+20  IOSBreakpad!main [main.m : 16 + 0x18]
+     fp = 0x0000000000000148    lr = 0x0000000181115fc0
+     sp = 0x0000000000000148    pc = 0x000000010020d728
+    Found by: previous frame's frame pointer
+21  libdyld.dylib + 0xfbc
+     fp = 0x0000000000000000    lr = 0x0000000000000000
+     sp = 0x0000000000000158    pc = 0x0000000181115fc0
+    Found by: previous frame's frame pointer
+
+Thread 1
+ 0  libsystem_kernel.dylib + 0xe08
+     x0 = 0x000000016ff39d98    x1 = 0x0000000007000806
+     x2 = 0x0000000000000000    x3 = 0x0000000000000c00
+     x4 = 0x0000000000005003    x5 = 0x00000000ffffffff
+     x6 = 0x0000000000000000    x7 = 0x0000000000000882
+     x8 = 0x00000000fffffbbf    x9 = 0x0000000007000000
+    x10 = 0x0000000007000000   x11 = 0x0000000000000040
+    x12 = 0xffffffffffffffff   x13 = 0x0000000000000001
+    x14 = 0x0000000000000000   x15 = 0x00003e0000003e00
+    x16 = 0xffffffffffffffe1   x17 = 0x0000000000003e00
+    x18 = 0x0000000000000000   x19 = 0x0000000000000000
+    x20 = 0x00000000ffffffff   x21 = 0x0000000000005003
+    x22 = 0x0000000000000c00   x23 = 0x000000016ff39d98
+    x24 = 0x0000000007000806   x25 = 0x0000000000000000
+    x26 = 0x0000000007000806   x27 = 0x0000000000000c00
+    x28 = 0x0000000000000001    fp = 0x000000016ff39c80
+     lr = 0x0000000181223c80    sp = 0x000000016ff39c30
+     pc = 0x0000000181223e08
+    Found by: given as instruction pointer in context
+ 1  libsystem_kernel.dylib + 0xc7c
+     fp = 0x000000016ff39ce0    lr = 0x0000000181766e40
+     sp = 0x000000016ff39c90    pc = 0x0000000181223c80
+    Found by: previous frame's frame pointer
+ 2  CoreFoundation + 0xede3c
+     fp = 0x000000016ff3aa00    lr = 0x0000000181764908
+     sp = 0x000000016ff39cf0    pc = 0x0000000181766e40
+    Found by: previous frame's frame pointer
+ 3  CoreFoundation + 0xeb904
+     fp = 0x000000016ff3ab70    lr = 0x0000000181684da8
+     sp = 0x000000016ff3aa10    pc = 0x0000000181764908
+    Found by: previous frame's frame pointer
+ 4  CoreFoundation + 0xbda4
+     fp = 0x000000016ff3abd0    lr = 0x00000001820f9674
+     sp = 0x000000016ff3ab80    pc = 0x0000000181684da8
+    Found by: previous frame's frame pointer
+ 5  Foundation + 0x8670
+     fp = 0x000000016ff3ac20    lr = 0x00000001820f951c
+     sp = 0x000000016ff3abe0    pc = 0x00000001820f9674
+    Found by: previous frame's frame pointer
+ 6  Foundation + 0x8518
+     fp = 0x000000016ff3ac60    lr = 0x000000018b386768
+     sp = 0x000000016ff3ac30    pc = 0x00000001820f951c
+    Found by: previous frame's frame pointer
+ 7  UIKit + 0x2764
+     fp = 0x000000016ff3aef0    lr = 0x0000000182209efc
+     sp = 0x000000016ff3ac70    pc = 0x000000018b386768
+    Found by: previous frame's frame pointer
+ 8  Foundation + 0x118ef8
+     fp = 0x000000016ff3af40    lr = 0x00000001813e5220
+     sp = 0x000000016ff3af00    pc = 0x0000000182209efc
+    Found by: previous frame's frame pointer
+ 9  libsystem_pthread.dylib + 0x221c
+     fp = 0x000000016ff3af70    lr = 0x00000001813e5110
+     sp = 0x000000016ff3af50    pc = 0x00000001813e5220
+    Found by: previous frame's frame pointer
+10  libsystem_pthread.dylib + 0x210c
+     fp = 0x0000000000000000    lr = 0x00000001813e3b10
+     sp = 0x000000016ff3af80    pc = 0x00000001813e5110
+    Found by: previous frame's frame pointer
+
+Thread 2
+ 0  libsystem_kernel.dylib + 0xe08
+     x0 = 0x0000000170052c88    x1 = 0x0000000000000006
+     x2 = 0x0000000000000000    x3 = 0x000000000000024c
+     x4 = 0x0000000000009703    x5 = 0x0000000000000000
+     x6 = 0x0000000000000000    x7 = 0x0000000000000000
+     x8 = 0x00000000fffffbbf    x9 = 0x000000000000024c
+    x10 = 0x000000000000362c   x11 = 0x00000001b60ac164
+    x12 = 0x00000001b60ac164   x13 = 0x0000000000000018
+    x14 = 0x0000000000000001   x15 = 0x0000000000000881
+    x16 = 0xffffffffffffffe1   x17 = 0x0000000000000000
+    x18 = 0x0000000000000000   x19 = 0x0000000000000000
+    x20 = 0x0000000000000000   x21 = 0x0000000000009703
+    x22 = 0x000000000000024c   x23 = 0x0000000170052c88
+    x24 = 0x0000000000000006   x25 = 0x0000000000000000
+    x26 = 0x0000000000000006   x27 = 0x0000000000000000
+    x28 = 0x0000000000000000    fp = 0x0000000170052be0
+     lr = 0x0000000181223c80    sp = 0x0000000170052b90
+     pc = 0x0000000181223e08
+    Found by: given as instruction pointer in context
+ 1  libsystem_kernel.dylib + 0xc7c
+     fp = 0x0000000170052ef0    lr = 0x000000010021c7d0
+     sp = 0x0000000170052bf0    pc = 0x0000000181223c80
+    Found by: previous frame's frame pointer
+ 2  IOSBreakpad!google_breakpad::ExceptionHandler::WaitForMessage(void*) [exception_handler.cc : 485 + 0xc]
+     fp = 0x0000000170052f40    lr = 0x00000001813e5220
+     sp = 0x0000000170052f00    pc = 0x000000010021c7d0
+    Found by: previous frame's frame pointer
+ 3  libsystem_pthread.dylib + 0x221c
+     fp = 0x0000000170052f70    lr = 0x00000001813e5110
+     sp = 0x0000000170052f50    pc = 0x00000001813e5220
+    Found by: previous frame's frame pointer
+ 4  libsystem_pthread.dylib + 0x210c
+     fp = 0x0000000000000000    lr = 0x00000001813e3b10
+     sp = 0x0000000170052f80    pc = 0x00000001813e5110
+    Found by: previous frame's frame pointer
+
+Thread 3
+ 0  libsystem_kernel.dylib + 0x22d84
+     x0 = 0x0000000000000100    x1 = 0x000000016fc7eb80
+     x2 = 0x0000000000000001    x3 = 0x0000000000000000
+     x4 = 0x00000001c40449e0    x5 = 0x000000000000047e
+     x6 = 0x00000001c4044950    x7 = 0x000000000000047d
+     x8 = 0x00000001c40e8000    x9 = 0x00000000ffffffff
+    x10 = 0x00000001c40e8038   x11 = 0x0000003700000001
+    x12 = 0x0000000000000000   x13 = 0x0000000000000000
+    x14 = 0x0000000000000001   x15 = 0x0000000000000007
+    x16 = 0x0000000000000170   x17 = 0x0000000000000030
+    x18 = 0x0000000000000000   x19 = 0x000000016fc7f000
+    x20 = 0x00000001c40e8000   x21 = 0x0000000000000019
+    x22 = 0x0000000000000001   x23 = 0x00000001b3cf6000
+    x24 = 0x00000001b3cf6000   x25 = 0x0000000000000000
+    x26 = 0x0000000000000005   x27 = 0x0000000081000000
+    x28 = 0x0000000000000001    fp = 0x000000016fc7eae0
+     lr = 0x00000001813e3eb4    sp = 0x000000016fc7ea40
+     pc = 0x0000000181245d84
+    Found by: given as instruction pointer in context
+ 1  libsystem_pthread.dylib + 0xeb0
+     fp = 0x0000000000000000    lr = 0x00000001813e3b08
+     sp = 0x000000016fc7eaf0    pc = 0x00000001813e3eb4
+    Found by: previous frame's frame pointer
+
+Loaded modules:
+0x100208000 - 0x10023ffff  IOSBreakpad  ???  (main)
+0x1808f3000 - 0x1808f4fff  libSystem.B.dylib  ???
+0x1808f5000 - 0x18094dfff  libc++.1.dylib  ???
+0x18094e000 - 0x18096ffff  libc++abi.dylib  ???
+0x180970000 - 0x18102bfff  libobjc.A.dylib  ???  (WARNING: No symbols, libobjc.A.dylib, EB1135B2BDE93B69B96E42CA982001830)
+0x18102c000 - 0x181031fff  libcache.dylib  ???
+0x181032000 - 0x18103dfff  libcommonCrypto.dylib  ???
+0x18103e000 - 0x181041fff  libcompiler_rt.dylib  ???
+0x181042000 - 0x18104afff  libcopyfile.dylib  ???
+0x18104b000 - 0x1810aefff  libcorecrypto.dylib  ???
+0x1810af000 - 0x181114fff  libdispatch.dylib  ???
+0x181115000 - 0x18112ffff  libdyld.dylib  ???  (WARNING: No symbols, libdyld.dylib, C7DEE18AC0193FA2B3904606C2CF7FA30)
+0x181130000 - 0x181130fff  liblaunch.dylib  ???
+0x181131000 - 0x181136fff  libmacho.dylib  ???
+0x181137000 - 0x181138fff  libremovefile.dylib  ???
+0x181139000 - 0x18114ffff  libsystem_asl.dylib  ???
+0x181150000 - 0x181150fff  libsystem_blocks.dylib  ???
+0x181151000 - 0x1811cefff  libsystem_c.dylib  ???
+0x1811cf000 - 0x1811d3fff  libsystem_configuration.dylib  ???
+0x1811d4000 - 0x1811d9fff  libsystem_containermanager.dylib  ???
+0x1811da000 - 0x1811dbfff  libsystem_coreservices.dylib  ???
+0x1811dc000 - 0x1811ddfff  libsystem_darwin.dylib  ???
+0x1811de000 - 0x1811e4fff  libsystem_dnssd.dylib  ???
+0x1811e5000 - 0x181222fff  libsystem_info.dylib  ???
+0x181223000 - 0x18124bfff  libsystem_kernel.dylib  ???  (WARNING: No symbols, libsystem_kernel.dylib, 3E7CF8F8DA43301FBA644F28FD8820A40)
+0x18124c000 - 0x181279fff  libsystem_m.dylib  ???
+0x18127a000 - 0x181295fff  libsystem_malloc.dylib  ???
+0x181296000 - 0x1813c1fff  libsystem_network.dylib  ???
+0x1813c2000 - 0x1813cdfff  libsystem_networkextension.dylib  ???
+0x1813ce000 - 0x1813d8fff  libsystem_notify.dylib  ???
+0x1813d9000 - 0x1813e2fff  libsystem_platform.dylib  ???
+0x1813e3000 - 0x1813f2fff  libsystem_pthread.dylib  ???  (WARNING: No symbols, libsystem_pthread.dylib, C5A2CC4B897A3109BBF55C74611E34FF0)
+0x1813f3000 - 0x1813f6fff  libsystem_sandbox.dylib  ???
+0x1813f7000 - 0x1813fefff  libsystem_symptoms.dylib  ???
+0x1813ff000 - 0x181412fff  libsystem_trace.dylib  ???
+0x181413000 - 0x181418fff  libunwind.dylib  ???
+0x181419000 - 0x181419fff  libvminterpose.dylib  ???
+0x18141a000 - 0x181444fff  libxpc.dylib  ???
+0x181445000 - 0x181666fff  libicucore.A.dylib  ???
+0x181667000 - 0x181678fff  libz.1.dylib  ???
+0x181679000 - 0x181a0ffff  CoreFoundation  ???  (WARNING: No symbols, CoreFoundation, 533C841ED6E9313D8ADB02388744E2EF0)
+0x181a10000 - 0x181a20fff  libbsm.0.dylib  ???
+0x181a21000 - 0x181a21fff  libenergytrace.dylib  ???
+0x181a22000 - 0x181aa6fff  IOKit  ???
+0x181aa7000 - 0x181b8efff  libxml2.2.dylib  ???
+0x181b8f000 - 0x181b9cfff  libbz2.1.0.dylib  ???
+0x181b9d000 - 0x181bb5fff  liblzma.5.dylib  ???
+0x181bb6000 - 0x181d1afff  libsqlite3.dylib  ???
+0x181d1b000 - 0x181d41fff  libMobileGestalt.dylib  ???
+0x181d42000 - 0x1820f0fff  CFNetwork  ???
+0x1820f1000 - 0x1823e9fff  Foundation  ???  (WARNING: No symbols, Foundation, E53F9393BFC83EF58520B0FE6B1931830)
+0x1823ea000 - 0x1824eafff  Security  ???
+0x1824eb000 - 0x182556fff  SystemConfiguration  ???
+0x182557000 - 0x18258cfff  libCRFSuite.dylib  ???
+0x18258d000 - 0x18258dfff  libapple_crypto.dylib  ???
+0x18258e000 - 0x1825a4fff  libapple_nghttp2.dylib  ???
+0x1825a5000 - 0x1825cefff  libarchive.2.dylib  ???
+0x1825cf000 - 0x18267dfff  libboringssl.dylib  ???
+0x18267e000 - 0x182694fff  libcoretls.dylib  ???
+0x182695000 - 0x182696fff  libcoretls_cfhelpers.dylib  ???
+0x182697000 - 0x182698fff  liblangid.dylib  ???
+0x182699000 - 0x18280ffff  libnetwork.dylib  ???
+0x182810000 - 0x182842fff  libpcap.A.dylib  ???
+0x182843000 - 0x18289ffff  libusrtcp.dylib  ???
+0x1828a0000 - 0x1828aafff  IOSurface  ???
+0x1828ab000 - 0x182950fff  libBLAS.dylib  ???
+0x182951000 - 0x182c71fff  libLAPACK.dylib  ???
+0x182c72000 - 0x182ee1fff  vImage  ???
+0x182ee2000 - 0x182ef3fff  libSparseBLAS.dylib  ???
+0x182ef4000 - 0x182f18fff  libvMisc.dylib  ???
+0x182f19000 - 0x182f40fff  libBNNS.dylib  ???
+0x182f41000 - 0x182f55fff  libLinearAlgebra.dylib  ???
+0x182f56000 - 0x182f5afff  libQuadrature.dylib  ???
+0x182f5b000 - 0x182fcafff  libSparse.dylib  ???
+0x182fcb000 - 0x183056fff  libvDSP.dylib  ???
+0x183057000 - 0x183057fff  vecLib  ???
+0x183058000 - 0x183058fff  Accelerate  ???
+0x183059000 - 0x183070fff  libcompression.dylib  ???
+0x183071000 - 0x1835b8fff  CoreGraphics  ???
+0x1835b9000 - 0x1835befff  IOAccelerator  ???
+0x1835bf000 - 0x1835c4fff  libCoreFSCache.dylib  ???
+0x1835c5000 - 0x18365dfff  Metal  ???
+0x18365e000 - 0x183671fff  GraphicsServices  ???  (WARNING: No symbols, GraphicsServices, 5011EC2511D73A56AF501E8207D549620)
+0x183672000 - 0x1837cbfff  MobileCoreServices  ???
+0x1837cc000 - 0x1837cefff  IOSurfaceAccelerator  ???
+0x1837cf000 - 0x183810fff  AppleJPEG  ???
+0x183811000 - 0x183dc1fff  ImageIO  ???
+0x183dc2000 - 0x183e25fff  BaseBoard  ???
+0x183e26000 - 0x183e3dfff  AssertionServices  ???
+0x183e3e000 - 0x183e46fff  CorePhoneNumbers  ???
+0x183e47000 - 0x183e8bfff  AppSupport  ???
+0x183e8c000 - 0x183ea4fff  CrashReporterSupport  ???
+0x183ea5000 - 0x183eaafff  AggregateDictionary  ???
+0x183eab000 - 0x183f2ffff  libTelephonyUtilDynamic.dylib  ???
+0x183f30000 - 0x183f4ffff  ProtocolBuffer  ???
+0x183f50000 - 0x183f7dfff  MobileKeyBag  ???
+0x183f7e000 - 0x183fb2fff  BackBoardServices  ???
+0x183fb3000 - 0x18400efff  FrontBoardServices  ???
+0x18400f000 - 0x18404bfff  SpringBoardServices  ???
+0x18404c000 - 0x18405afff  PowerLog  ???
+0x18405b000 - 0x184077fff  CommonUtilities  ???
+0x184078000 - 0x184083fff  liblockdown.dylib  ???
+0x184084000 - 0x184388fff  CoreData  ???
+0x184389000 - 0x18438ffff  TCC  ???
+0x184390000 - 0x184397fff  libcupolicy.dylib  ???
+0x184398000 - 0x184429fff  CoreTelephony  ???
+0x18442a000 - 0x184481fff  Accounts  ???
+0x184482000 - 0x1844abfff  AppleSauce  ???
+0x1844ac000 - 0x1844b4fff  DataMigration  ???
+0x1844b5000 - 0x1844bbfff  Netrb  ???
+0x1844bc000 - 0x1844eefff  PersistentConnection  ???
+0x1844ef000 - 0x184500fff  libmis.dylib  ???
+0x184501000 - 0x184606fff  ManagedConfiguration  ???
+0x184607000 - 0x18460cfff  libReverseProxyDevice.dylib  ???
+0x18460d000 - 0x18461ffff  libamsupport.dylib  ???
+0x184620000 - 0x184625fff  libCoreVMClient.dylib  ???
+0x184626000 - 0x184627fff  libCVMSPluginSupport.dylib  ???
+0x184628000 - 0x18462bfff  libutil.dylib  ???
+0x18462c000 - 0x18466cfff  libGLImage.dylib  ???
+0x18466d000 - 0x1846e3fff  APFS  ???
+0x1846e4000 - 0x184715fff  MediaKit  ???
+0x184716000 - 0x18472efff  libSERestoreInfo.dylib  ???
+0x184733000 - 0x18476ffff  DiskImages  ???
+0x184770000 - 0x184779fff  libGFXShared.dylib  ???
+0x18477a000 - 0x1847c1fff  libauthinstall.dylib  ???
+0x1847c2000 - 0x1847cafff  IOMobileFramebuffer  ???
+0x1847cb000 - 0x1847d6fff  OpenGLES  ???
+0x1847d7000 - 0x18485efff  ColorSync  ???
+0x18485f000 - 0x184888fff  CoreVideo  ???
+0x184889000 - 0x18488afff  libCTGreenTeaLogger.dylib  ???
+0x18488b000 - 0x1849f7fff  CoreAudio  ???
+0x1849f8000 - 0x184a26fff  CoreAnalytics  ???
+0x184a27000 - 0x184a2afff  UserFS  ???
+0x184a2b000 - 0x184bb0fff  CoreMedia  ???
+0x184bb1000 - 0x184bc3fff  libprotobuf-lite.dylib  ???
+0x184bc4000 - 0x184c28fff  libprotobuf.dylib  ???
+0x184c29000 - 0x184ef2fff  libAWDSupportFramework.dylib  ???
+0x184ef3000 - 0x184f3cfff  WirelessDiagnostics  ???
+0x184f3d000 - 0x184ff4fff  VideoToolbox  ???
+0x184ff5000 - 0x1850fefff  libFontParser.dylib  ???
+0x1850ff000 - 0x185100fff  FontServices  ???
+0x185101000 - 0x185254fff  CoreText  ???
+0x185255000 - 0x185264fff  IntlPreferences  ???
+0x185265000 - 0x18526dfff  RTCReporting  ???
+0x18526e000 - 0x1852defff  CoreBrightness  ???
+0x1852df000 - 0x1852e9fff  libAudioStatistics.dylib  ???
+0x1852ea000 - 0x185822fff  AudioToolbox  ???
+0x185823000 - 0x185a56fff  QuartzCore  ???
+0x185a57000 - 0x185a62fff  MediaAccessibility  ???
+0x185a63000 - 0x185b55fff  libiconv.2.dylib  ???
+0x185b56000 - 0x185b71fff  NetworkStatistics  ???
+0x185b72000 - 0x185b8dfff  MPSCore  ???
+0x185b8e000 - 0x185bf6fff  MPSImage  ???
+0x185bf7000 - 0x185c19fff  MPSMatrix  ???
+0x185c1a000 - 0x185c28fff  CoreAUC  ???
+0x185c29000 - 0x186281fff  MediaToolbox  ???
+0x186282000 - 0x1863b1fff  MPSNeuralNetwork  ???
+0x1863b2000 - 0x1863b2fff  MetalPerformanceShaders  ???
+0x1863b3000 - 0x1867ddfff  FaceCore  ???
+0x1867de000 - 0x1867ebfff  GraphVisualizer  ???
+0x1867ec000 - 0x186993fff  libFosl_dynamic.dylib  ???
+0x186994000 - 0x186bf7fff  CoreImage  ???
+0x186bf8000 - 0x186df6fff  CoreMotion  ???
+0x186df7000 - 0x186e25fff  CoreBluetooth  ???
+0x186e26000 - 0x186e48fff  PlugInKit  ???
+0x186e49000 - 0x187074fff  Celestial  ???
+0x187075000 - 0x1870f7fff  Quagga  ???
+0x1870f8000 - 0x1871eefff  AVFAudio  ???
+0x1871ef000 - 0x1873e1fff  AVFoundation  ???
+0x1873e2000 - 0x187404fff  CacheDelete  ???
+0x187405000 - 0x18742afff  StreamingZip  ???
+0x18742b000 - 0x18743cfff  CoreEmoji  ???
+0x18743d000 - 0x18748afff  CoreLocationProtobuf  ???
+0x18748b000 - 0x187493fff  SymptomDiagnosticReporter  ???
+0x187494000 - 0x187d9dfff  GeoServices  ???
+0x187d9e000 - 0x187db5fff  MobileAsset  ???
+0x187db6000 - 0x187df6fff  Lexicon  ???
+0x187df7000 - 0x187e07fff  libcmph.dylib  ???
+0x187e08000 - 0x187f29fff  LanguageModeling  ???
+0x187f2a000 - 0x187f41fff  libmarisa.dylib  ???
+0x187f42000 - 0x187fdbfff  CoreLocation  ???
+0x187fdc000 - 0x187fdcfff  PhoneNumbers  ???
+0x187fdd000 - 0x187fe8fff  libChineseTokenizer.dylib  ???
+0x187fe9000 - 0x188095fff  libmecab_em.dylib  ???
+0x188096000 - 0x188097fff  libThaiTokenizer.dylib  ???
+0x188098000 - 0x18809cfff  libgermantok.dylib  ???
+0x18809d000 - 0x1880f4fff  CoreNLP  ???
+0x1880f5000 - 0x1882c6fff  MobileSpotlightIndex  ???
+0x188335000 - 0x188eb3fff  JavaScriptCore  ???
+0x188eb4000 - 0x188eb9fff  libheimdal-asn1.dylib  ???
+0x188eba000 - 0x188f35fff  libate.dylib  ???
+0x188f36000 - 0x188feafff  TextureIO  ???
+0x188feb000 - 0x1890b7fff  CoreUI  ???
+0x1890b8000 - 0x1890c1fff  MobileIcons  ???
+0x1890d1000 - 0x189129fff  TextInput  ???
+0x18912a000 - 0x189152fff  libxslt.1.dylib  ???
+0x189188000 - 0x18921bfff  FileProvider  ???
+0x18930e000 - 0x1893e5fff  ProofReader  ???
+0x1893e6000 - 0x1893fafff  libAccessibility.dylib  ???
+0x1893fb000 - 0x1898a1fff  libwebrtc.dylib  ???
+0x1898a2000 - 0x189904fff  ContactsFoundation  ???
+0x189905000 - 0x18afd6fff  WebCore  ???
+0x18afd7000 - 0x18b15afff  WebKitLegacy  ???
+0x18b15b000 - 0x18b183fff  DataAccessExpress  ???
+0x18b184000 - 0x18b21efff  AddressBookLegacy  ???
+0x18b21f000 - 0x18b27afff  ProtectedCloudStorage  ???
+0x18b27b000 - 0x18b2a7fff  UserNotifications  ???
+0x18b2a8000 - 0x18b2b3fff  AppleIDAuthSupport  ???
+0x18b2b4000 - 0x18b304fff  AuthKit  ???
+0x18b32f000 - 0x18b383fff  DocumentManager  ???
+0x18b384000 - 0x18c402fff  UIKit  ???  (WARNING: No symbols, UIKit, D9E6D4137FC83C5487AD8918121773630)
+0x18c403000 - 0x18c415fff  DocumentManagerCore  ???
+0x18c416000 - 0x18c41afff  HangTracer  ???
+0x18c41b000 - 0x18c46cfff  PhysicsKit  ???
+0x18c46d000 - 0x18c46ffff  StudyLog  ???
+0x18c470000 - 0x18c54ffff  UIFoundation  ???
+0x18c550000 - 0x18c66efff  CloudKit  ???
+0x18c66f000 - 0x18c66ffff  IntentsFoundation  ???
+0x18c670000 - 0x18c78dfff  Network  ???
+0x18c78e000 - 0x18c995fff  Intents  ???
+0x18c996000 - 0x18c9b0fff  libresolv.9.dylib  ???
+0x18c9b1000 - 0x18c9b3fff  CoreDuetDebugLogging  ???
+0x18c9b4000 - 0x18c9e9fff  libtidy.A.dylib  ???
+0x18c9ea000 - 0x18cb19fff  CoreDuet  ???
+0x18cb1a000 - 0x18cb39fff  CoreDuetContext  ???
+0x18cb3a000 - 0x18cb4efff  CoreDuetDaemonProtocol  ???
+0x18cb4f000 - 0x18cbbafff  IMFoundation  ???
+0x18cbbb000 - 0x18cbe9fff  vCard  ???
+0x18cbea000 - 0x18ccf7fff  Contacts  ???
+0x18ccf8000 - 0x18ccf9fff  DiagnosticLogCollection  ???
+0x18ccfa000 - 0x18ccfbfff  Marco  ???
+0x18ccfc000 - 0x18cd06fff  MessageProtection  ???
+0x18cd07000 - 0x18d015fff  StoreServices  ???
+0x18d016000 - 0x18d02dfff  Engram  ???
+0x18d02e000 - 0x18d11efff  IDSFoundation  ???
+0x18d11f000 - 0x18d12afff  CaptiveNetwork  ???
+0x18d12b000 - 0x18d159fff  EAP8021X  ???
+0x18d15a000 - 0x18d194fff  MobileWiFi  ???
+0x18d195000 - 0x18d197fff  OAuth  ???
+0x18d198000 - 0x18d19afff  CommonAuth  ???
+0x18d19b000 - 0x18d209fff  Heimdal  ???
+0x18d20a000 - 0x18d233fff  GSS  ???
+0x18d234000 - 0x18d24bfff  ApplePushService  ???
+0x18d24c000 - 0x18d2e3fff  AccountsDaemon  ???
+0x18d2e4000 - 0x18d308fff  AppleIDSSOAuthentication  ???
+0x18d309000 - 0x18d381fff  AppleAccount  ???
+0x18d382000 - 0x18d4b9fff  CoreUtils  ???
+0x18d4ba000 - 0x18d5d0fff  IDS  ???
+0x18d5d1000 - 0x18d5f4fff  MediaServices  ???
+0x18d5f5000 - 0x18d7cbfff  MediaRemote  ???
+0x18d7cc000 - 0x18d7e4fff  UserManagement  ???
+0x18d7e5000 - 0x18d7f4fff  MobileBluetooth  ???
+0x18d82b000 - 0x18d850fff  FTAWD  ???
+0x18d851000 - 0x18d8a4fff  FTServices  ???
+0x18d8a5000 - 0x18d8f6fff  WirelessProximity  ???
+0x18d902000 - 0x18d950fff  ChunkingLibrary  ???
+0x18d951000 - 0x18d95dfff  libnetworkextension.dylib  ???
+0x18e785000 - 0x18e919fff  NetworkExtension  ???
+0x18e91a000 - 0x18ed66fff  SiriTTS  ???
+0x18ed67000 - 0x18edc1fff  SAObjects  ???
+0x18edc2000 - 0x18ee00fff  VoiceServices  ???
+0x18ee01000 - 0x18ee31fff  GLKit  ???
+0x18ee32000 - 0x18ef19fff  AssistantServices  ???
+0x18ef1a000 - 0x18ef38fff  AssetCacheServices  ???
+0x18ef39000 - 0x18eff3fff  NetworkServiceProxy  ???
+0x18eff4000 - 0x18f0e5fff  MMCS  ???
+0x18f0e6000 - 0x18f0f2fff  BluetoothManager  ???
+0x18f203000 - 0x18f230fff  PhotosFormats  ???
+0x18f320000 - 0x18f439fff  CloudPhotoLibrary  ???
+0x18f51d000 - 0x18f547fff  AssetsLibraryServices  ???
+0x18f548000 - 0x18f57cfff  ACTFramework  ???
+0x18f57d000 - 0x18f59dfff  DCIMServices  ???
+0x18f59e000 - 0x18f6d9fff  CoreMediaStream  ???
+0x18f6da000 - 0x18f6e1fff  XPCKit  ???
+0x18f6e2000 - 0x18f7c6fff  CameraKit  ???
+0x18f7c7000 - 0x18f7dffff  CloudPhotoServices  ???
+0x18f7ec000 - 0x18f80afff  MediaStream  ???
+0x18f80b000 - 0x18fc30fff  PhotoLibraryServices  ???
+0x18fc31000 - 0x18fc66fff  PrototypeTools  ???
+0x18fc67000 - 0x18fcf0fff  CoreSymbolication  ???
+0x18fe25000 - 0x18fed8fff  iTunesStore  ???
+0x18fed9000 - 0x18fedffff  libtzupdate.dylib  ???
+0x18fee0000 - 0x19004efff  Preferences  ???
+0x19004f000 - 0x190056fff  CoreTime  ???
+0x190057000 - 0x1901c2fff  CVML  ???
+0x1901c3000 - 0x190210fff  CoreAppleCVA  ???
+0x190258000 - 0x1903d2fff  AppleCVA  ???
+0x1903d3000 - 0x190463fff  Montreal  ???
+0x190464000 - 0x190686fff  Espresso  ???
+0x19068b000 - 0x1907dcfff  Photos  ???
+0x1907dd000 - 0x1909a8fff  CoreML  ???
+0x190b6d000 - 0x190b99fff  Futhark  ???
+0x190c31000 - 0x190c42fff  BaseBoardUI  ???
+0x190edb000 - 0x19113cfff  Vision  ???
+0x191653000 - 0x191658fff  ConstantClasses  ???
+0x191662000 - 0x1916a6fff  AXRuntime  ???
+0x1916a7000 - 0x1916defff  ScreenReaderCore  ???
+0x1916df000 - 0x191703fff  TextToSpeech  ???
+0x191704000 - 0x191747fff  CoreMIDI  ???
+0x191858000 - 0x19185afff  libAXSafeCategoryBundle.dylib  ???
+0x19185b000 - 0x191865fff  libAXSpeechManager.dylib  ???
+0x191866000 - 0x191949fff  AccessibilityUtilities  ???
+0x191c6e000 - 0x191c6efff  AdSupport  ???
+0x192a42000 - 0x192ab5fff  WebInspector  ???
+0x192ab6000 - 0x192badfff  ITMLKit  ???
+0x19320d000 - 0x193224fff  AccessibilityUIUtilities  ???
+0x193472000 - 0x1934cdfff  AXMediaUtilities  ???
+0x193695000 - 0x1936abfff  CoreFollowUp  ???
+0x193e40000 - 0x193e43fff  FTClientServices  ???
+0x1943bf000 - 0x1943ccfff  SetupAssistantSupport  ???
+0x1943cd000 - 0x1943f5fff  SetupAssistant  ???
+0x1950d1000 - 0x19513efff  IMSharedUtilities  ???
+0x1958e6000 - 0x195900fff  MetalKit  ???
+0x196958000 - 0x19696afff  MobileDeviceLink  ???
+0x196ad2000 - 0x196b19fff  MobileBackup  ???
+0x1982d2000 - 0x1982d6fff  AccessibilityUIShared  ???
+0x198687000 - 0x19868dfff  AccessibilityUI  ???
+0x19c199000 - 0x19c19dfff  libsysdiagnose.dylib  ???
+0x19c767000 - 0x19c769fff  SpeakTypingServices  ???
+0x19c76a000 - 0x19c76ffff  ZoomServices  ???
+0x19e969000 - 0x19e97afff  DeviceIdentity  ???
+0x1a16c9000 - 0x1a16d7fff  AccessibilitySettingsLoader  ???
+0x1a1d78000 - 0x1a1d8cfff  libCGInterfaces.dylib  ???
+0x1a4991000 - 0x1a49a2fff  libGSFontCache.dylib  ???
+0x1a49a3000 - 0x1a49d5fff  libTrueTypeScaler.dylib  ???
+0x1a6255000 - 0x1a6258fff  InternationalSupport  ???
+0x1a7fd9000 - 0x1a7fdefff  TextInputUI  ???
+0x1aa09d000 - 0x1aa0cdfff  libclosured.dylib  ???
